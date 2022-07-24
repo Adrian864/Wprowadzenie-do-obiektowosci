@@ -20,8 +20,12 @@ public class Kalkulator {
         System.out.println(c);
         */
         public int add(int a, int b){
-            int c;
-            c=a+b;
-            return c;
+            return a + b;
         }
+    public int mno(int a, int b){
+        return a*b;
+    }
+    public int ode(int a, int b){
+        return a-b;
+    }
 }
