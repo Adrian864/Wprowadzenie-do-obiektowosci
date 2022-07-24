@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        /*
         Car audi = new Car("Czerwony", 5, "A4", false);
         System.out.println(audi.getgearbox());
         audi.setGearbox(true);
@@ -13,5 +14,10 @@ public class Main {
         System.out.println(audi.getmarka());
         audi.setMarka("M3");
         System.out.println(audi.getmarka());
+         */
+        Kalkulator calc = new Kalkulator();
+        calc.add(5,2);
+        System.out.println(calc.add(5,2));
+
     }
 }
